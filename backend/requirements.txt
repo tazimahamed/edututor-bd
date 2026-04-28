@@ -1,0 +1,23 @@
+fastapi==0.110.0
+uvicorn[standard]==0.27.1
+python-dotenv==1.0.0
+pydantic==2.5.3
+pydantic-settings==2.1.0
+
+# Google Gemini (নতুন package)
+google-genai>=0.8.0
+
+# ChromaDB
+chromadb==0.4.22
+
+# LangChain (শুধু text splitter দরকার)
+langchain-text-splitters==0.0.1
+
+# Supabase
+supabase==2.3.4
+
+# Utils
+python-jose[cryptography]==3.3.0
+passlib[bcrypt]==1.7.4
+httpx==0.26.0
+pypdf==4.0.2
